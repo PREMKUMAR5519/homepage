@@ -6,7 +6,7 @@ function Lander() {
   const[enterPwd,setEnterPwd]=useState(true)
   const[existingUser,setExistingUser]=useState(false)
   const [email,SetEmail]=useState("")
-  const [oldPassword,setOldPassword]=useState("")
+  const [oldPassword,setOldPassword]=useState("") 
   const [newPassword,setNewPassword]=useState("")
 
 
