@@ -1,0 +1,88 @@
+.purchase_main{
+    width: 100vw;
+}
+.purchasediv1{
+    margin-top: 5vh;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    
+}
+.purchasediv1>h2{
+    transform: translateY(3px);
+}
+.purchasediv2{
+    height: 15vh;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.purchasediv2_1{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+.purchasediv2_1>button{
+    background: rgba(0, 0, 0, 0.725);
+    color: white;
+    padding: 10px 25px ;
+    border: none;
+}
+.purchasediv2_2{
+    color: black;
+    width: 15%;
+    display: flex;
+    float: left;
+    align-items: end;
+    gap: 10px;
+    font-size:0.9rem;
+
+}
+.purchasediv2_2>h1{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+}
+.productList{
+    margin-top: 10vh;
+}
+.purchase_banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    height: 30vh;
+}
+.purchase_banner>img{
+    border-radius: 25px;
+    width: 90%;
+    height: auto;
+    
+}
+.purchase_all{
+    
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+
+}
+.purcase_div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+}

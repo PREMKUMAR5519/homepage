@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Artifika&family=IM+Fell+English+SC&family=Rakkas&display=swap');
+@font-face {
+  font-family: 'Riviera Nights';
+  src: url('../fonts/RivieraNightsTrial-Ultralight.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.mainpage_main{
+  width: 100vw;
+  font-family: 'Riviera Nights';
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+
+ 
+
+}
+.mainpage_container{
+  width: 100vw;
+}
+.video-container{
+  width: 100%;
+}
+/* ///////////////////////////////////////// */
+
+.mainpagecon{
+  width: 100vw;
+  height: 200vh;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.mainpagecon.true{
+  height: 170vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.mainpage_con1{
+  height: 100vh;
+  position: absolute;
+}
+.viewall_pro{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewall_pro>p{
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  padding: 10px;
+}
+
+.mainpage_con2{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 100vh;
+}
+
+/* //////////////////////////////////////// */
+.line_l{
+  height: 0.5px;
+  margin-bottom: 10px;
+  width: 300px;
+  background-color: rgba(238, 222, 52, 0.578);
+}
+.mainpage_div {
+    position: relative;
+    z-index: -1;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    z-index: 2;
+    width: 100%;
+    
+    height: 100%;
+   
+  }
+  .mainpage_div1{
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+
+    font-family: 'Riviera Nights';
+  }
+
+  .mainpage_div2{
+    font-size: x-large;
+    
+  }
+  .mainpage_div3{
+    padding: 5vh;
+  }
+  .mainpage_div3>button{
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 25px;
+    letter-spacing: 2px;
+  }
+  .our_products{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Riviera Nights';
+
+    font-size: calc(1.5rem + 1.5vw);
+    color: rgba(0, 0, 0, 0.819);
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+  }
+  .View_all{
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .View_all>button{
+    padding: 15px 25px;
+    border: 1px solid rgb(9, 58, 28);
+    background:none;
+    letter-spacing: 1px;
+    color: rgb(31, 31, 31);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 1px;
+    flex-direction: row;
+
+
+  }
+  .View_all>button:hover{
+    background-color: black;
+    color: white;
+  }
+  .quate1{
+    background-color: rgb(246, 214, 255);
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+  }
+
+.bag{
+  font-size: 20px;
+  margin: 2px;
+}
+
+
+.quate1>p{
+  font-size: calc(1.5rem + 1.5vw);
+  color: rgba(0, 0, 0, 0.649);
+  letter-spacing: 1.5px;
+  font-family: "Raleway", sans-serif;
+  
+
+
+
+}
+
+.mainpage_end1{
+  float: left;
+  padding: 20px;
+  width: 40%;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  flex-direction: row;
+}
+.mainpage_end1_1,.mainpage_end1_2{
+  float: left;
+  margin-top: 10px;
+  color: white;
+  
+}
+.mainpage_end11{
+  width: 25vw;
+  transition: all 0.1s ease;
+  
+
+}
+
+
+.mainpage_end1_2{
+  font-size: small;
+  text-align: left;
+  line-height: 120%;
+}
+.mainpage_end1_1{
+  letter-spacing: 1px;
+  font-size: large;
+}
+.mainpage_end1_1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mainpage_end12{
+ height: 100px;
+ display: flex;
+ align-items: end;
+ font-size: 20px;
+}
+
+.I_class{
+  margin-right: 5px;
+  color: rgb(181, 0, 0);
+  font-size: 30px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.baseDiv {
+  width: 100%;
+}
+
+.overlayDiv {
+  position: absolute;
+  top: 0; /* Adjust this value as needed */
+  left: 0; /* Adjust this value as needed */
+}
+/* //////////////////////// */
+
+
+/* src/VideoBackgroundText.css */
+
+
+
+/* /////////////////////////// */
+.footer_plus{
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.d_uses{
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 3rem;
+  padding: 10px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: rgb(38, 70, 52);
+  
+}

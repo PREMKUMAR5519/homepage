@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+.page5main{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(249, 228, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.page5_container1{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+ 
+}
+
+.page5_container1 h4{
+    font-family: "Bona Nova SC", serif;
+    color: rgb(37, 47, 68);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-top: 10%;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+.page5_container1 p{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: rgb(38, 40, 50);
+
+}
+.page5_container1 h6{
+    font-size: 0.8rem;
+    margin-top: 1%;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    padding: 20px;
+}
+   
+.page5_container2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.page5_container2_div1{
+    width: 30%;
+    color: rgb(226, 214, 231);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+#margin_right{
+    border-right: 2px solid rgba(128, 128, 128, 0.34);
+}
+.page5_container2_div1 > h5{
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    color: rgba(76, 26, 108, 0.755);
+
+}
+.page5_container2_div1 p{
+    color: rgba(0, 0, 0, 0.647);
+}

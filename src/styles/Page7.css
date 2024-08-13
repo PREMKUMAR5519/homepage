@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+.page7_main{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient( rgb(249, 228, 255) 80%, #03417ef0);
+
+}
+.video_con {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 60px;
+  
+  }
+  
+  .video_con>video {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .page7_container1{
+    width: 30%;
+    padding-left: 30px;
+   
+  }
+  .Page7_div1{
+    position: relative;
+    width: 100%;
+  }
+  .Page7_div2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: calc(5rem);
+  color: white;
+  text-shadow: 1px 1px 1px rgba(142, 24, 205, 0.679);
+
+  
+
+  }
+  .page7div3{
+    width: 65%;
+    padding-top: 70px;
+  
+  }
+  .page7div3_1{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+
+  }
+  .page7div3_1>img{
+    width:100%;
+  }
+  .page7div31{
+    padding-top: 10px;
+    padding-left:5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .page7div311{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+
+  }
+  .page7div3_11{
+    top: 0;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out; 
+  }
+.page7div3_11:hover{
+    background-color: rgba(0, 0, 0, 0.305);
+    backdrop-filter: blur(3px);
+
+}
+.page7div3_11>div{
+    font-size: 3rem;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 1px 2px 1px gray
+}
+.page7div3_11>p{
+    font-size: 0.75rem;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+  
+}
+.page7div3_11>div:hover{
+    scale: 102%;
+}

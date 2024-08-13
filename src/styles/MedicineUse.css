@@ -1,0 +1,45 @@
+.mu_main>h1{
+    letter-spacing: 0.5rem;
+}
+
+.mu_div1 h1{
+    letter-spacing: 0.5rem;
+}
+
+.mu_main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+}
+.mu_div1 p{
+    color: black;
+
+}
+.mu_div1>h1{
+ text-align: center;
+ text-transform: uppercase;
+}
+.mu_div1>p{
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.mu_div1>div>h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.mu_div1>div{
+    margin: 5vw;
+    width: 80%;
+}
+.mu_div1>div>h1{
+    margin-bottom: 10px;
+}
+.mu_div1>div>p{
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}

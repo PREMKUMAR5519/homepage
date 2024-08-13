@@ -1,0 +1,199 @@
+
+.parallax-item {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  .parallax-item h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 5%;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow:  2px 2px 2px rgba(0,0,0,0.4);
+  }
+
+  .parallax-item >button{
+    margin-left: 7%;
+    padding: 15px 35px;
+    margin-top: 60px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .parallax-item:first-child {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-position: center center ;
+  }
+  
+  .parallax-item:nth-child(2) {
+  }
+  
+  .parallax-item:nth-child(3) {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax Effect for DIV 3 */
+  }
+  
+  .parallax-item:nth-child(4) {
+    background: #1565c0;
+  }
+  #banner{
+    background-position:center;
+    background-size: cover;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .parallax-item h2 {
+      font-size: 1.5rem;
+    }
+  }
+#banner h2, p{
+  color: rgb(8, 87, 13);
+  text-shadow: none;
+}
+#banner p{
+  color: rgb(255, 255, 255);
+}
+#banner_about{
+  background-position:center;
+  background-size: cover;
+  height: 110vh;
+}
+.arrow_right{
+  font-size: 20px;
+}
+.first_discover{
+  color: rgb(9, 91, 19);
+}
+#first_discover{
+  color: rgb(154, 109, 205);
+
+}
+#first_journy{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: large;
+}
+
+
+
+/* ///////////////////////// */
+
+.our_productback{
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+#parallax_unique{
+  height: 60vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+.parallax_div1{
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.373);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.parallax_div1>h1{
+  letter-spacing: .8rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Riviera Nights';
+}
+.parallax_div1>button{
+  padding: 15px 45px;
+  border-radius: 35px;
+  letter-spacing: 2px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+
+}
+@font-face {
+  font-family: 'Riviera Nights';
+  src: url('../fonts/RivieraNightsTrial-Ultralight.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.setus{
+  width:100%;
+  font-family: 'Riviera Nights';
+height: 100%;
+}
+.setus_div1{
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 3rem;
+  letter-spacing: .5rem;
+}
+.setus_div2{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: start;
+  gap: 100px;
+  padding-top: 3%;
+
+}
+.setus_div2 div{
+  width: 20%;
+}
+.setus_div2 div h1{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom:10px ;
+  letter-spacing: .4rem;
+}
+.setus_div2 div p{
+
+  color: gray;
+}
+.parallax_div1>p{
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'Riviera Nights';
+}

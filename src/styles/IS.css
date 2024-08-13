@@ -1,0 +1,22 @@
+
+  
+  .container {
+    width: 100vw;
+    height: 240vh; /* 3 divs of 80vh each */
+    position: relative;
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+  
+  .parallax {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+  }
+  
+  .content {
+    width: 100vw;
+    height: 80vh;
+  }
+  

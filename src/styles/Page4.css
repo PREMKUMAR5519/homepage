@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Serif+Khitan+Small+Script&display=swap');
+
+
+
+.page3_main{
+    background-color: rgb(246, 214, 255);
+    overflow: hidden;
+
+
+}
+.page3_div1{
+  
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.differ{
+    color: rgb(84, 66, 92);
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(28, 26, 26, 0.262);
+
+
+    
+}
+
+
+ 
+
+
+/* //////////////////////////////// */
+.page3_div11{
+    width: 40%;
+
+}
+.page3_div11>img{
+    width: 100%;
+
+}
+.page3_div12{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.page3_div12>p{
+    width: 70%;
+    text-align: center !important;
+    margin: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 2px;
+    color: #000202dc;
+    overflow: hidden;
+    font-size:17px;
+
+
+}
+.page3_div12>div{
+    font-size: calc(2rem + 1vw);
+    padding: 10px;
+    padding: 0;
+    margin: 0;
+    color: #14738d;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 70px;
+    overflow-y: hidden;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.page3_div12>h4{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: large;
+  color: #2d5661f1;
+  font-weight: 500;
+
+}
+.differ1{
+    font-size: 20px;
+    color: rgb(235, 209, 61);
+    text-shadow: 1px 1px 1px rgb(127, 10, 169);
+}

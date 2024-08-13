@@ -1,0 +1,172 @@
+.culinary_main h1{
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+
+}
+
+
+.culinary_div1{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.culinary_div1>img{
+    width: 100vw;
+}
+.culinary_div12{
+    top: 0;
+    left: 0;
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.culinary_div12>h1{
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+
+}
+.culinary_div21{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.culinary_div2>h1{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3rem;
+}
+.culinary_div2 p{
+    color: black;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.culinary_div2>p{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+
+}
+.culinary_div21{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+}
+.culinary_div21>div{
+    width: 25%;
+    color: black;
+}
+.culinary_div21>div>h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.culinary_div22{
+}
+.culinary_div22>div{
+}
+.culinary_div22 p{
+    color: black;
+}
+.culinary_div22>h1{
+    font-size: 2rem;
+}
+.culinary_div22>div>h1{
+}
+.culinary_div22{
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+.culinary_div23>h1{
+    text-align: center;
+}
+.culinary_div23 p{
+    color: black;
+}
+.culinary_div23>div>h1{
+    font-size: 1rem;
+}
+.culinary_div23>div{
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+.radio_btton{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio_btton>div{
+    background-color: rgba(229, 236, 241, 0.659);
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+.radio_btton p{
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.radio_btn.true{
+    background-color: rgba(156, 195, 202, 0.651);
+    color: rgba(0, 0, 0, 0.659);
+    font-weight: bold;
+    
+
+}
+.culinary_div221>h1{
+    font-size: 2rem;
+}
+.culinary_div221>div>h1{
+    font-size: 1.5rem;
+    margin-top:10px ;
+    margin-bottom:10px ;
+
+}
+.culinary_div221{
+    width: 60%;
+}
+.culinary_div222{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+
+}
+.culinary_div222>img{
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.4);
+
+
+
+}
+.culinary_div221>div>p{
+    width: 80%;
+}

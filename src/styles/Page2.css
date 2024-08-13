@@ -1,0 +1,67 @@
+.Page2_main{
+    width: 100vw;
+    background-color: rgb(246, 214, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+
+}
+.page2_div1{
+    overflow:hidden;
+    width: 30vw;
+    /* box-shadow: 0 2px 5px 2px rgba(128, 128, 128, 0.437); */
+
+}
+.page2_div11{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.indian_img{
+    width: 100%;
+}
+.card_title{
+    font-size: larger;
+    margin-top: 10px;
+}
+.og_price{
+    opacity: 80%;
+    text-decoration: line-through;
+    font-size: small;
+}
+.offer_price{
+    font-size: large;
+}
+.card_gram{
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: gray;
+    padding-top: 5px;
+}
+.card_button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+.card_button>p{
+    border: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    font-weight: 500;
+   text-underline-offset: 7px;
+   height: 30px;
+}
+.card_button>P::after{
+    content: hi;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px; /* Adjust the gap size */
+  height: 2px; /* Adjust the underline thickness */
+  background-color: black; /* Adjust the underline color */
+}

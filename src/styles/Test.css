@@ -1,0 +1,135 @@
+body {
+    scroll-behavior: smooth;
+  }
+.aboutt_main{
+    background-color: black;
+}
+.aboutt_main h1{
+  letter-spacing: 0.4rem;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.about_parallax_div11>h1{
+  letter-spacing: 0.6srem;
+
+}
+  .about_parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .about_screen {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, black 95%);
+  }
+  
+  .flex {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    height: 300px;
+    margin: 10px 0;
+    width: 30%;
+    color: white;
+    font-size: 1em;
+  }
+  .item>h1{
+    text-transform: uppercase;
+
+  }
+  .item>p{
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+  .double {
+    width: 65%;
+    background-image: url("../images/ourproductsback.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
+  
+  p {
+    text-align: justify;
+    color: white;
+  }
+
+  
+  .aboutend{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(71, 69, 69, 0.534);
+  }
+  .aboutend>p{
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+
+  }
+  .about_parallax_div1{
+    height: 20vh;
+    width: 100vw;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .about_parallax_div11{
+    width: 100%;
+
+  }
+.about_parallax_div11>h1{
+  text-align: center;
+  color: white;
+  font-size: 5em;
+}
+.about_parallax_div12{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 35%;
+    word-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.471);
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.about_parallax_div2{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.about_parallax_div2>h3{
+    width: 60%;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: rgba(11, 8, 8, 0.575);
+    
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Riviera Nights';
+    src: url('../fonts/RivieraNightsTrial-Ultralight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+    font-family: 'Riviera Nights';
+
+}  
+
+.pl_main{
+    width: 100vw;
+
+}
+.pl_div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+}
+.pl_div1>h1{
+ 
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    color: rgba(0, 0, 0, 0.829);
+    
+    
+
+}
+.pl_div1>p{
+    color: black;
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}

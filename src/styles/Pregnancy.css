@@ -1,0 +1,106 @@
+.pu_div1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pu_main h1{
+    letter-spacing: 0.5rem;
+}
+.pu_main p{
+    color: black;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.pu_main h1{
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.pu_div1>h1{
+    font-size: 3.5rem;
+}
+.pu_div1>p{
+    width: 60%;
+    text-align: center;
+}
+.pu_div2{
+    margin-bottom: 10vh;
+}
+.pu_div2>h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.pu_div2>div{
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.pu_div2>div>h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pu_div2>div>p{
+    width: 80%;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.pu_div4>h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.pu_div4{
+    margin-top: 10vh;
+}
+.pu_div4>div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 5vw;
+
+
+}
+.pu_div4>div>div{
+    
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+
+}
+.pu_div4>div>div>p{
+    width: 80%;
+    text-align: center
+}
+.pu_div5{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.pu_div5>p{
+    width: 80%;
+    text-align: center;
+    
+}
+.pu_div5{
+    display: flex;
+    justify-content: center;
+
+
+align-items: center;
+background-color: rgba(128, 128, 128, 0.479);
+padding: 5vh;
+
+}

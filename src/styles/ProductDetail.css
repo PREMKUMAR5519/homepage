@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Riviera Nights';
+    src: url('../fonts/RivieraNightsTrial-Ultralight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.productdetail_main{
+    width: 100vw;
+    font-family: 'Riviera Nights';
+}
+.productdetail1{
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+}
+.productdetail1>p{
+    width: 80%;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.productdetail1>h1{
+    font-size: 4rem;
+    letter-spacing: 0.3rem;    
+}
+.productdetail2,.productdetail3{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.productdetail2>video{
+    width: 100vw;
+
+}
+.productdetail3>video{
+ 
+    width: 100%;
+ 
+}
+.productdetail2_div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.636);
+    top: 0;
+    left: 0;
+}
+.productdetail2_div>h1{
+    color: white;
+    letter-spacing: 0.7rem;
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Riviera Nights';
+
+}
+.productdetail2_div>button{
+    padding: 15px 45px;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+  
+  }
+.productdetail2_div>P{
+    color: white;
+    letter-spacing: 0.3rem;
+    margin: 10px;
+    margin-bottom: 20px;
+}

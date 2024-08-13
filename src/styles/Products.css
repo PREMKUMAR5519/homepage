@@ -1,0 +1,39 @@
+.products_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    height: 90vh;
+
+}
+.productsChild_main{
+    width: 23%;
+    position: relative;
+  
+}
+.productsChild_container1{
+
+}
+.productsChild_container1 img{
+    width: 100%;
+}
+.productsChild_container1 h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    color: black;
+}
+.productsChild_container1 p{
+    margin-top: 10px;
+    color: black;
+}
+.productsChild_container2{
+    position: absolute;
+    top: 10px;
+    color: white;
+    right: 10px;
+    font-size: 23px;
+    font-weight: 200;
+}
