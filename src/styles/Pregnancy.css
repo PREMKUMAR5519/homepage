@@ -5,18 +5,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
 
+
+}
+.pu_div1>h1{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
 .pu_main h1{
     letter-spacing: 0.5rem;
 }
-.pu_main p{
+.pu_main{
+    background-color: rgba(233, 216, 235, 0.186);
+}
+.pu_div2 p,.pu_div4 p{
     color: black;
     letter-spacing: 1.5px;
     word-spacing: 2px;
     line-height: 25px;
 }
-.pu_main h1{
+.pu_div2 h1,.pu_div4 h1{
     color: black;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -30,6 +39,7 @@
 }
 .pu_div2{
     margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 .pu_div2>h1{
     text-align: center;
@@ -103,4 +113,8 @@ align-items: center;
 background-color: rgba(128, 128, 128, 0.479);
 padding: 5vh;
 
+}
+.pu_img1{
+    width: 400px;
+    margin-bottom: 10px;
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 import '../styles/Pregnancy.css'
+import pregnancyback from '../images/pregnancyback.jpg'
+import saffronmilk1 from '../images/saffronmilk1.png'
+import saffronfood1 from '../images/saffronfood1.jpg'
+
 function Pregnancy() {
   return (
     <div className='pu_main'>
-        <div className='pu_div1'>
-            <h1>PREGNANCY USE</h1>
+        <div className='pu_div1' style={{backgroundImage:`url(${pregnancyback})`}}>
+            <h1>PREGNANCY USES</h1>
             <p>Saffron, derived from the crocus flower (Crocus sativus), is one of the most expensive spices in the world, prized for its vibrant color, unique aroma, and potential medicinal properties.</p>
         </div>
         <div className='pu_div2'>
@@ -58,11 +62,14 @@ function Pregnancy() {
             <div>
                 
             <div>
+                <img className='pu_img1' src={saffronmilk1} alt="" />
                 <h1>SAFFRON MILK</h1>
                 <p>A comforting and flavorful way to enjoy saffron’s potential benefits. To make saffron milk, add a few strands of saffron to warm milk and let it steep for a few minutes before drinking.</p>
             </div>
 
             <div>
+            <img className='pu_img1' src={saffronfood1} alt="" />
+
                 <h1>Culinary Uses</h1>
                 <p>Add a pinch of saffron to enhance the taste and color of various dishes like rice, soups, stews, or desserts. Saffron pairs well with both sweet and savory recipes.</p>
             </div>

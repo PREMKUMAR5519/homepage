@@ -1,7 +1,9 @@
 .mu_main>h1{
     letter-spacing: 0.5rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
-
+ 
 .mu_div1 h1{
     letter-spacing: 0.5rem;
 }
@@ -43,3 +45,87 @@
     letter-spacing: 1.5px;
     word-spacing: 2px;
 }
+.mu_main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.radio_btton_mu{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio_btton_mu>div{
+    background-color: rgba(229, 236, 241, 0.659);
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.radio_mu_div2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.radio_mu_div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.radio_mu_div1>img{
+    width: 60vw;
+    opacity: 60%;
+
+
+}
+.radio_mu_div2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.radio_mu_div2>p{
+    height: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: rgb(238, 232, 232);
+    letter-spacing: 1.5px;
+    background-color: rgba(46, 24, 4, 0.355);
+    transition: color 0.3s ease-in-out;
+    transition:  background-color 0.3s ease-in-out;
+    cursor: pointer;
+
+
+
+
+}
+.radio_btn_mu.true{
+    background-color: rgba(196, 132, 29, 0.988);
+    color: rgb(247, 246, 246);
+    font-weight: bold;
+
+}
+.mu_div1{
+    transform: translateX(100vw);
+    transition: all 0.5s ease-in-out;
+}
+.mu_div1.true{
+    transform: translateX(0);
+}
+
+  

@@ -1,0 +1,139 @@
+.beauty_main>h1{
+    letter-spacing: 0.5rem;
+}
+
+.beauty_div1 h1{
+    letter-spacing: 0.5rem;
+}
+
+.beauty_main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    position: relative;
+}
+.beauty_main>img{
+    width: 100%;
+}
+.beauty_main1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    letter-spacing: 0.5rem;
+
+}
+.beauty_div1 p{
+    color: black;
+
+}
+.beauty_div1>h1{
+ text-align: center;
+ text-transform: uppercase;
+}
+.beauty_div1>p{
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.beauty_div1>div>h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.beauty_div1>div{
+    margin: 5vw;
+    width: 80%;
+}
+.beauty_div1>div>h1{
+    margin-bottom: 10px;
+}
+.beauty_div1>div>p{
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+.radio_btton_beauty{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio_btton_beauty>div{
+    background-color: rgba(229, 236, 241, 0.659);
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.radio_beauty_div2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.radio_beauty_div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.radio_beauty_div1>img{
+    width: 60vw;
+    opacity: 40%;
+
+
+}
+.radio_beauty_div2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.radio_beauty_div2>p{
+    height: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: black;
+    letter-spacing: 1.5px;
+    background-color: rgba(88, 140, 78, 0.273);
+    transition: color 0.3s ease-in-out;
+    transition:  background-color 0.3s ease-in-out;
+    cursor: pointer;
+
+
+
+
+}
+.radio_btn_beauty.true{
+    background-color: rgba(25, 106, 9, 0.795);
+    color: rgb(247, 246, 246);
+    font-weight: bold;
+
+}
+.beauty_div1{
+    transform: translateX(100vw);
+    transition: all 0.5s ease-in-out;
+}
+.beauty_div1.true{
+    transform: translateX(0);
+}
